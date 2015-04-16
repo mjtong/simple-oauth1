@@ -28,8 +28,8 @@ typedef void (^WebWiewDelegateHandler)(NSDictionary *oauthParams);
 // Go to: https://www.linkedin.com/secure/developer and get your API keys
 
 #define OAUTH_CALLBACK       @"linkedin_oauth" //Sometimes this has to be the same as the registered app callback url
-#define CONSUMER_KEY         @"API Key"
-#define CONSUMER_SECRET      @"Secret Key"
+#define CONSUMER_KEY         kLinkedInAPIKey
+#define CONSUMER_SECRET      kLinkedInSecreyKey
 #define AUTH_URL             @"https://api.linkedin.com/uas/"
 #define REQUEST_TOKEN_URL    @"oauth/requestToken"
 #define AUTHENTICATE_URL     @"oauth/authorize"
