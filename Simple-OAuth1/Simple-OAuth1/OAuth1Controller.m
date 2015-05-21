@@ -35,7 +35,7 @@ typedef void (^WebWiewDelegateHandler)(NSDictionary *oauthParams);
 #define AUTHENTICATE_URL     @"oauth/authorize"
 #define ACCESS_TOKEN_URL     @"oauth/accessToken"
 #define API_URL              @"http://api.linkedin.com/v1/"
-#define OAUTH_SCOPE_PARAM    @"r_fullprofile r_emailaddress rw_nus r_network w_messages"
+#define OAUTH_SCOPE_PARAM    @"r_basicprofile r_emailaddress"
 
 
 #define REQUEST_TOKEN_METHOD @"POST"
